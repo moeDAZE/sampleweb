@@ -1,9 +1,9 @@
-import { Hero } from "./components/Hero";
+import { InstancePath } from "./components/InstancePath";
 
 export function App() {
   return (
-    <main className="min-h-[100svh] bg-[var(--color-base)] text-[var(--color-fg)]">
-      <Hero />
-    </main>
+    <div className="fixed inset-0 overflow-hidden">
+      <InstancePath />
+    </div>
   );
 }
